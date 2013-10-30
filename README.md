@@ -23,6 +23,11 @@ This is a child theme created for the Genesis Framework, intended as a starting 
 3. Running `grunt watch` will watch the files and will compile as soon as you save the changes.
 4. You can set options for deployment in Gruntfile.js and then you can deploy with a single command to your server.
 
+##Credits
+1. Takes grunt portions from [https://github.com/mattbanks/Genesis-Starter-Child-Theme/tree/master](https://github.com/mattbanks/Genesis-Starter-Child-Theme/tree/master)
+2. Takes portions from [https://github.com/julianfernandes/personal-genesis](https://github.com/julianfernandes/personal-genesis)
+3. Takes mixins from Bootstrap [https://github.com/twbs/bootstrap](https://github.com/twbs/bootstrap)
+
 ##Support 
 
 **This theme comes with NO support.**
