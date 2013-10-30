@@ -7,10 +7,12 @@ define( 'CHILD_THEME_NAME', 'Genesis Child' );
 define( 'CHILD_THEME_URL', 'http://conetfun.com/' );
 define( 'CHILD_THEME_VERSION', '0.1' );
 
-//* Enqueue  Google font
+//* Enqueue Scripts and styles and fonts
 add_action( 'wp_enqueue_scripts', 'personal_google_fonts' );
 function personal_google_fonts() {
 	wp_enqueue_style( 'google-font', '//fonts.googleapis.com/css?family=Open+Sans:300,400,700', array(), CHILD_THEME_VERSION );
+	wp_enqueue_script( 'plugins' , stylesheet_directory_uri().'/assets/js/plugins.min.js');
+	wp_enqueue_script( 'main' , stylesheet_directory_uri().'/assets/js/main.min.js');
 }
 
 //* Add HTML5 markup structure
@@ -81,7 +83,7 @@ function single_post_featured_image() {
 //* Register newsletter widget area
 genesis_register_sidebar( array(
 	'id'		=> 'newsletter',
-	'name'		=> __( 'Newsletter', 'custom-theme' ),
+	'name'		=> __( 'Newsletter', 'CHILD_THEME_NAME' ),
 	'description'	=> __( 'This is the newsletter section.', 'CHILD_THEME_NAME' ),
 ) );
  

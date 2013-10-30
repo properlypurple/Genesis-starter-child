@@ -105,7 +105,8 @@ module.exports = function(grunt) {
 
 
     // image optimization
-    imagemin: {
+    //uncomment the following if you want to use image optimization
+    /*imagemin: {
       dist: {
         options: {
           optimizationLevel: 7,
@@ -119,7 +120,7 @@ module.exports = function(grunt) {
         }]
       }
     }
-    
+    */
     
 
   });
