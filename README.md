@@ -12,7 +12,7 @@ This is a child theme created for the Genesis Framework, intended as a starting 
 4. Make changes and run `grunt` to compile the changes.
 
 ##Few points
-1. All the less files are in `assets/less`. The most important is `app.less`, where you'll write your styles.
+1. All the less files are in `assets/less`. The most important is `app.less`, in which all other less files are imported. There is an index to see what lies in each file. You can just edit whatever files you want in the `partials` folder..
 2. You can exclude various less files from the `partial` folder if you don't want them. The standard stylesheet from Genesis is called Genesis.less, so you should exclude it if you plan to write all cs from scratch.
 3. All javascript plugins(third-party) will go in `assets/js/vendor`. You can install via bower if you have that installed. You will have to add these in your Gruntfile.js to be included.
 4. DO NOT edit style.css directly, IT WILL BE OVERWRITTEN every time you run grunt.
