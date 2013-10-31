@@ -25,7 +25,7 @@ add_theme_support( 'genesis-responsive-viewport' );
 add_theme_support( 'genesis_structural_wraps', array('header', 'nav', 'subnav', 'site-inner', 'footer-widgets', 'footer' ));
 
 // Add footer widgets
-add_theme_support( genesis-footer-widgets, 3);
+add_theme_support( 'enesis-footer-widgets', 3);
 
 //* Add the default featured image size
 add_image_size( 'Featured Image', 660, 150, true );
