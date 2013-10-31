@@ -19,7 +19,7 @@ This is a child theme created for the Genesis Framework, intended as a starting 
 
 ##Grunt tasks
 1. Running `grunt` will simply convert less to css, minify and compress all css and js, and generate `main.min.js`, `plugins.min.js` and `style.css`. 
-2. If you want image minification, you can uncomment the section in `Gruntfile.js`.
+2. If you want to optimize your images, run `grunt imagemin`.
 3. Running `grunt watch` will watch the files and will compile as soon as you save the changes.
 4. You can set options for deployment in Gruntfile.js and then you can deploy with a single command to your server.
 
