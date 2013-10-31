@@ -44,17 +44,16 @@ textarea:focus,
 a {
 	color: #666;
 	text-decoration: none;
-	
-	img {
-		margin-bottom: -4px;
-		margin-bottom: -0.4rem;
-	}
-	
-	&hover {
-		color: #333;
-	}
 }
 
+a img {
+	margin-bottom: -4px;
+	margin-bottom: -0.4rem;
+}
+
+a:hover {
+	color: #333;
+}
 
 p {
 	margin: 0 0 24px;
