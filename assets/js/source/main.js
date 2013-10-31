@@ -35,7 +35,7 @@ var UTIL = {
 
     UTIL.fire('common');
 
-    $.each(document.body.className.replace(/-/g, '_').split(/\s+/),function(i,classnm) {
+    jQuery.each(document.body.className.replace(/-/g, '_').split(/\s+/),function(i,classnm) {
       UTIL.fire(classnm);
     });
 
@@ -43,5 +43,5 @@ var UTIL = {
   }
 };
 
-$(document).ready(UTIL.loadEvents);
+jQuery(document).ready(UTIL.loadEvents);
 
