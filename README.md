@@ -1,7 +1,7 @@
 This is a child theme created for the Genesis Framework, intended as a starting point for theme developers. Please do not use this directly in production.
 
 + **Author:** Gaurav Pareek
-+ **Author URI:** [conetfun.com](http://conetfun.com "coNetFun")
++ **Author URI:** [magikpress.com](http://magikpress.com "MagikPress")
 + **Version:** 0.1 
 
 ##How to use
@@ -32,4 +32,4 @@ This is a child theme created for the Genesis Framework, intended as a starting 
 
 **This theme comes with NO support.**
 
-However you can file issues, or drop me a question at [grvrulz@conetfun.com](mailto:grvrulz@conetfun.com "My email"), and I will see if I can answer. You can also [find me on Google Plus](https://plus.google.com/105851740173780411948 "My Google Plus").
+However you can file issues, or drop me a question at [grvrulz@conetfun.com](mailto:grv@magikpress.com "My email"), and I will see if I can answer. You can also [find me on Google Plus](https://plus.google.com/117996111106920866668 "My Google Plus").
