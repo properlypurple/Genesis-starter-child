@@ -32,4 +32,4 @@ This is a child theme created for the Genesis Framework, intended as a starting 
 
 **This theme comes with NO support.**
 
-However you can file issues, or drop me a question at [grvrulz@conetfun.com](mailto:grv@magikpress.com "My email"), and I will see if I can answer. You can also [find me on Google Plus](https://plus.google.com/117996111106920866668 "My Google Plus").
+However you can file issues, or drop me a question at [grvrulz@magikpress.com](mailto:grv@magikpress.com "My email"), and I will see if I can answer. You can also [find me on Google Plus](https://plus.google.com/117996111106920866668 "My Google Plus").
